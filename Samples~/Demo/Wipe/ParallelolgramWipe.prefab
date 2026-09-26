@@ -1,0 +1,975 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1850059321241934}
+  m_IsPrefabAsset: 1
+--- !u!1 &1850059321241934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224245516751125492}
+  - component: {fileID: 222566749330514828}
+  - component: {fileID: 114094663271922372}
+  - component: {fileID: 114435860216978804}
+  m_Layer: 5
+  m_Name: ParallelolgramWipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114094663271922372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850059321241934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: f41c113f112a92143b0018b3cc5d18cb, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114435860216978804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850059321241934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b03d0e27e39c24c94f7d6391336435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maskMaterial: {fileID: 2100000, guid: f41c113f112a92143b0018b3cc5d18cb, type: 2}
+  shapes:
+  - center: {x: -0.02, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.06333333, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.03
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 0}
+  - center: {x: 0.14666668, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.06
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 0}
+  - center: {x: 0.23, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 0}
+  - center: {x: 0.31333333, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 0}
+  - center: {x: 0.39666668, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 0}
+  - center: {x: 0.48, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 0}
+  - center: {x: 0.5633334, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 0}
+  - center: {x: 0.6466667, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 0}
+  - center: {x: 0.73, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 0}
+  - center: {x: 0.8133334, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 0}
+  - center: {x: 0.8966667, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 0}
+  - center: {x: 0.98, y: 0.9166667}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 0}
+  - center: {x: 0.01846154, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.03
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 1}
+  - center: {x: 0.10179488, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.06
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 1}
+  - center: {x: 0.18512821, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 1}
+  - center: {x: 0.26846153, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 1}
+  - center: {x: 0.35179487, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 1}
+  - center: {x: 0.4351282, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 1}
+  - center: {x: 0.5184616, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 1}
+  - center: {x: 0.6017949, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 1}
+  - center: {x: 0.6851283, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 1}
+  - center: {x: 0.7684616, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 1}
+  - center: {x: 0.8517949, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 1}
+  - center: {x: 0.9351283, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 1}
+  - center: {x: 1.0184616, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 1}
+  - center: {x: -0.02, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.03
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 2}
+  - center: {x: 0.06333333, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.06
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 2}
+  - center: {x: 0.14666668, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 2}
+  - center: {x: 0.23, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 2}
+  - center: {x: 0.31333333, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 2}
+  - center: {x: 0.39666668, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 2}
+  - center: {x: 0.48, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 2}
+  - center: {x: 0.5633334, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 2}
+  - center: {x: 0.6466667, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 2}
+  - center: {x: 0.73, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 2}
+  - center: {x: 0.8133334, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 2}
+  - center: {x: 0.8966667, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 2}
+  - center: {x: 0.98, y: 0.5833333}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 2}
+  - center: {x: 0.01846154, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.06
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 3}
+  - center: {x: 0.10179488, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 3}
+  - center: {x: 0.18512821, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 3}
+  - center: {x: 0.26846153, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 3}
+  - center: {x: 0.35179487, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 3}
+  - center: {x: 0.4351282, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 3}
+  - center: {x: 0.5184616, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 3}
+  - center: {x: 0.6017949, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 3}
+  - center: {x: 0.6851283, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 3}
+  - center: {x: 0.7684616, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 3}
+  - center: {x: 0.8517949, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 3}
+  - center: {x: 0.9351283, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 3}
+  - center: {x: 1.0184616, y: 0.41666666}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.42
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 3}
+  - center: {x: -0.02, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.06
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 4}
+  - center: {x: 0.06333333, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 4}
+  - center: {x: 0.14666668, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 4}
+  - center: {x: 0.23, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 4}
+  - center: {x: 0.31333333, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 4}
+  - center: {x: 0.39666668, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 4}
+  - center: {x: 0.48, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 4}
+  - center: {x: 0.5633334, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 4}
+  - center: {x: 0.6466667, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 4}
+  - center: {x: 0.73, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 4}
+  - center: {x: 0.8133334, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 4}
+  - center: {x: 0.8966667, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 4}
+  - center: {x: 0.98, y: 0.24999997}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.42
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 4}
+  - center: {x: 0.01846154, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 5}
+  - center: {x: 0.10179488, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 5}
+  - center: {x: 0.18512821, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 5}
+  - center: {x: 0.26846153, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 5}
+  - center: {x: 0.35179487, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 5}
+  - center: {x: 0.4351282, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 5}
+  - center: {x: 0.5184616, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 5}
+  - center: {x: 0.6017949, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 5}
+  - center: {x: 0.6851283, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 5}
+  - center: {x: 0.7684616, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 5}
+  - center: {x: 0.8517949, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 5}
+  - center: {x: 0.9351283, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.42
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 5}
+  - center: {x: 1.0184616, y: 0.083333306}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.45
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 5}
+  - center: {x: -0.02, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.089999996
+    expandDuration: 0.001
+    gridPos: {x: 0, y: 6}
+  - center: {x: 0.06333333, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.12
+    expandDuration: 0.001
+    gridPos: {x: 1, y: 6}
+  - center: {x: 0.14666668, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.14999999
+    expandDuration: 0.001
+    gridPos: {x: 2, y: 6}
+  - center: {x: 0.23, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.17999999
+    expandDuration: 0.001
+    gridPos: {x: 3, y: 6}
+  - center: {x: 0.31333333, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.21
+    expandDuration: 0.001
+    gridPos: {x: 4, y: 6}
+  - center: {x: 0.39666668, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.24
+    expandDuration: 0.001
+    gridPos: {x: 5, y: 6}
+  - center: {x: 0.48, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.26999998
+    expandDuration: 0.001
+    gridPos: {x: 6, y: 6}
+  - center: {x: 0.5633334, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.29999998
+    expandDuration: 0.001
+    gridPos: {x: 7, y: 6}
+  - center: {x: 0.6466667, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.32999998
+    expandDuration: 0.001
+    gridPos: {x: 8, y: 6}
+  - center: {x: 0.73, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.35999998
+    expandDuration: 0.001
+    gridPos: {x: 9, y: 6}
+  - center: {x: 0.8133334, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.39
+    expandDuration: 0.001
+    gridPos: {x: 10, y: 6}
+  - center: {x: 0.8966667, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.42
+    expandDuration: 0.001
+    gridPos: {x: 11, y: 6}
+  - center: {x: 0.98, y: -0.083333366}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0.18}
+    endScale: {x: 0.22, y: 0.18}
+    rotation: 0
+    endRotation: 0
+    delay: 0.45
+    expandDuration: 0.001
+    gridPos: {x: 12, y: 6}
+  closeDuration: 0.7
+  openDuration: 0.7
+  holdDuration: 0
+  easing: 0
+  reverseClosePhase: 0
+  reverseOpenPhase: 0
+  closeFlip: 0
+  openFlip: 0
+  scaleTarget: {fileID: 0}
+  scaleInDuration: 0.3
+  scaleOutDuration: 0.3
+  randomizePosition: 0
+  randomOffsetX: 0
+  randomOffsetY: 0
+  randomizeRotation: 0
+  randomRotationMin: 0
+  randomRotationMax: 0
+  randomizeDelay: 0
+  randomDelayMin: 0
+  randomDelayMax: 0
+  randomizeEndScale: 0
+  randomEndScaleAxis: 0
+  randomEndScaleMin: 0.8
+  randomEndScaleMax: 1.2
+  randomEndScaleUniform: 1
+  randomizeEachPhase: 0
+  onScreenCovered:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onTransitionDone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  testKey: 100
+  gridSettings:
+    columns: 13
+    rows: 7
+    marginX: 0
+    marginY: 0
+    staggerRows: 1
+    snakeOrder: 0
+    postOffsetX: -0.02
+    postOffsetY: -0.083333336
+    baseDelay: 0
+    delayStep: 0.03
+    rowGroupStep: 0.03
+    delayOrder: 3
+    staggerDelayCompensation: 0
+    expand: 0.001
+    startX: 0
+    startY: 0.18
+    endScaleX: 0.22
+    endScaleY: 0.18
+    startRotation: 0
+    endRotation: 0
+    offsetX: 0
+    offsetY: 0
+--- !u!222 &222566749330514828
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850059321241934}
+  m_CullTransparentMesh: 0
+--- !u!224 &224245516751125492
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850059321241934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}

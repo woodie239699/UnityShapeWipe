@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1023305968389966}
+  m_IsPrefabAsset: 1
+--- !u!1 &1023305968389966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224954823759001588}
+  - component: {fileID: 222441567279787002}
+  - component: {fileID: 114883202582475412}
+  - component: {fileID: 114354206911733436}
+  m_Layer: 5
+  m_Name: OpenDoorWipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114354206911733436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023305968389966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b03d0e27e39c24c94f7d6391336435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maskMaterial: {fileID: 2100000, guid: 9c579a26b1bd5b745914aa7c7da630ab, type: 2}
+  shapes:
+  - center: {x: 0, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 1}
+    endScale: {x: 1.788, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0.25
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 1}
+    endScale: {x: 1.788, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0.25
+    gridPos: {x: 1, y: 0}
+  closeDuration: 0.5
+  openDuration: 0.5
+  holdDuration: 0.4
+  easing: 0
+  reverseClosePhase: 1
+  reverseOpenPhase: 0
+  closeFlip: 0
+  openFlip: 0
+  scaleTarget: {fileID: 224954823759001588}
+  scaleInDuration: 0.2
+  scaleOutDuration: 0.2
+  randomizePosition: 0
+  randomOffsetX: 0
+  randomOffsetY: 0
+  randomizeRotation: 0
+  randomRotationMin: 0
+  randomRotationMax: 0
+  randomizeDelay: 0
+  randomDelayMin: 0
+  randomDelayMax: 0
+  randomizeEndScale: 0
+  randomEndScaleAxis: 0
+  randomEndScaleMin: 1
+  randomEndScaleMax: 1
+  randomEndScaleUniform: 0
+  randomizeEachPhase: 0
+  onScreenCovered:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onTransitionDone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  testKey: 103
+  gridSettings:
+    columns: 2
+    rows: 1
+    marginX: 0
+    marginY: 0
+    staggerRows: 0
+    snakeOrder: 0
+    postOffsetX: 0
+    postOffsetY: 0
+    baseDelay: 0
+    delayStep: 0
+    rowGroupStep: 0
+    delayOrder: 3
+    staggerDelayCompensation: 0
+    expand: 0.25
+    startX: 0
+    startY: 1
+    endScaleX: 1.788
+    endScaleY: 1
+    startRotation: 0
+    endRotation: 0
+    offsetX: 0
+    offsetY: 0
+--- !u!114 &114883202582475412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023305968389966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 9c579a26b1bd5b745914aa7c7da630ab, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222441567279787002
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023305968389966}
+  m_CullTransparentMesh: 0
+--- !u!224 &224954823759001588
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023305968389966}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}

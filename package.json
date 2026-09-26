@@ -1,0 +1,26 @@
+{
+  "name": "com.woodie239699.unity-shape-wipe",
+  "version": "1.0.0",
+  "displayName": "Unity Shape Wipe",
+  "description": "A shape-mask screen transition for Unity with arbitrary shapes, up to 200 instances, and a visual editor.",
+  "unity": "2018.4",
+  "keywords": [
+    "transition",
+    "wipe",
+    "shader",
+    "mask",
+    "ui"
+  ],
+  "author": {
+    "name": "woodie239699",
+    "url": "https://github.com/woodie239699"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A basic scene showing the transition in action.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}

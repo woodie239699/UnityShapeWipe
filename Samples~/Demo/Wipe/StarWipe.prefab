@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1452200559779068}
+  m_IsPrefabAsset: 1
+--- !u!1 &1452200559779068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224638520735343034}
+  - component: {fileID: 222379638664185394}
+  - component: {fileID: 114879255977144012}
+  - component: {fileID: 114385490464573420}
+  m_Layer: 5
+  m_Name: StarWipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114385490464573420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452200559779068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b03d0e27e39c24c94f7d6391336435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maskMaterial: {fileID: 2100000, guid: 387ef58b13e6a7a43b8af24dafd5fb5a, type: 2}
+  shapes:
+  - center: {x: 0, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.2, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.4, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.6, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.8, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 1}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.2, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.4, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.6, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.8, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 0.75}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.2, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.4, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.6, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.8, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 0.5}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.2, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.4, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.6, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.8, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 0.25}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.2, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.4, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.6, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 0.8, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  - center: {x: 1, y: 0}
+    wipeOffset: {x: 0, y: 0}
+    startScale: {x: 0, y: 0}
+    endScale: {x: 1, y: 1}
+    rotation: 0
+    endRotation: 0
+    delay: 0
+    expandDuration: 0
+    gridPos: {x: 0, y: 0}
+  closeDuration: 0.7
+  openDuration: 0.7
+  holdDuration: 0
+  easing: 0
+  reverseClosePhase: 0
+  reverseOpenPhase: 0
+  closeFlip: 0
+  openFlip: 0
+  scaleTarget: {fileID: 0}
+  scaleInDuration: 0.3
+  scaleOutDuration: 0.3
+  randomizePosition: 1
+  randomOffsetX: 0.2
+  randomOffsetY: 0.2
+  randomizeRotation: 1
+  randomRotationMin: -36
+  randomRotationMax: 36
+  randomizeDelay: 1
+  randomDelayMin: 0
+  randomDelayMax: 0.1
+  randomizeEndScale: 1
+  randomEndScaleAxis: 0
+  randomEndScaleMin: 0.1
+  randomEndScaleMax: 3
+  randomEndScaleUniform: 1
+  randomizeEachPhase: 1
+  onScreenCovered:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onTransitionDone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  testKey: 99
+  gridSettings:
+    columns: 6
+    rows: 5
+    marginX: 0
+    marginY: 0
+    staggerRows: 0
+    snakeOrder: 0
+    postOffsetX: 0
+    postOffsetY: 0
+    baseDelay: 0
+    delayStep: 0
+    rowGroupStep: 0
+    delayOrder: 3
+    staggerDelayCompensation: 0
+    expand: 0
+    startX: 0
+    startY: 0
+    endScaleX: 1
+    endScaleY: 1
+    startRotation: 0
+    endRotation: 0
+    offsetX: 0
+    offsetY: 0
+--- !u!114 &114879255977144012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452200559779068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 387ef58b13e6a7a43b8af24dafd5fb5a, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222379638664185394
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452200559779068}
+  m_CullTransparentMesh: 0
+--- !u!224 &224638520735343034
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452200559779068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
