@@ -16,6 +16,10 @@
     "url": "https://github.com/woodie239699"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woodie239699/UnityShapeWipe.git"
+  },
   "samples": [
     {
       "displayName": "Demo",
