@@ -1,0 +1,16 @@
+{
+    "name": "ShapeWipe.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9d5c0207222b7e1498c2d3042074035e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

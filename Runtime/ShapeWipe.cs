@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
 
-namespace ShapeWipe
+namespace ShapeWipeTool
 {
     public enum DelayOrder
     {
