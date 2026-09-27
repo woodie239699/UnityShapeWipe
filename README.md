@@ -6,7 +6,7 @@ A Celeste-inspired shape-mask transition for Unity — arbitrary shapes, up to 2
 
 
 
-!\[Demo](Docs/demo.gif)
+![Demo](Documentation~/Demo.gif)
 
 
 
