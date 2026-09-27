@@ -9,7 +9,7 @@ using UnityEditorInternal;
 using System.Collections.Generic;
 using ShapeWipe;
 
-namespace ShapeWipe.EditorTools
+namespace ShapeWipeEditorTools
 {
     [CustomEditor(typeof(ShapeWipe))]
     public class ShapeWipeEditor : UnityEditor.Editor
