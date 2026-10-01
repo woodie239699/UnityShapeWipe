@@ -41,7 +41,8 @@ ShapeWipe 是一套受《蔚蓝》(Celeste) 启发的 Unity 屏幕转场遮罩�
 
 ### 安装
 
-**通过 Git URL 安装（推荐）**
+**通过 Git URL 安装**
+**（unity2018.3以下版本可能需要手动导入Assets文件）**
 
 **GitHub：**
 
@@ -114,7 +115,8 @@ ShapeWipe is a Unity screen transition mask tool inspired by Celeste's Wipe effe
 
 ### Installation
 
-**Via Git URL (Recommended)**
+**Via Git URL**
+**(Versions of Unity prior to 2018.3 may require manual import of the Assets folder.)**
 
 **GitHub:**
 
